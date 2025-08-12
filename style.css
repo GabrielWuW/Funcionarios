@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2vh;
+}
+
+.containerFuncionario {
+    width: 30vh;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1vh;
+    transition: 0.2s;
+
+    box-shadow: -1px 4px 8px 1px rgba(163, 163, 163, 0.75);
+    -webkit-box-shadow: -1px 4px 8px 1px rgba(163, 163, 163, 0.75);
+    -moz-box-shadow: -1px 4px 8px 1px rgba(163, 163, 163, 0.75);
+}
+
+.containerFuncionario:hover {
+    width: 31vh;
+    height: 26vh;
+    cursor: pointer;
+}
+
+.containerFuncionario img {
+    width: 10vh;
+    height: 14vh;
+    border-radius: 50%;
+}
+
+.nome {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
